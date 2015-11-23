@@ -1,0 +1,28 @@
+{
+  "name": "iotmarket",
+  "version": "0.0.0",
+  "description": "Node.js Iot Market implementation by the IoT Lab of the University of Helsinki",
+  "homepage": "http://iotlab.cs.helsinki.fi",
+  "keywords": [
+    "iot",
+    "iot hub",
+    "iot market"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error, there are no test defined at the moment\" && exit 1"
+  },
+  "dependencies": {
+    "assert": "^1.3.0",
+    "async": "^1.5.0",
+    "loopback": "^2.25.0",
+    "loopback-component-explorer": "^2.1.1",
+    "loopback-connector-mongodb": "^1.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uh-cs-iotlab/node-iotmarket"
+  },
+  "author": "Julien Mineraud <julien.mineraud@helsinki.fi>",
+  "license": "Apache-2.0"
+}
